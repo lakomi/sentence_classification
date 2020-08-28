@@ -12,9 +12,7 @@ import argparse  # 命令行解析包
 import torch
 import torchtext.data as data
 
-import model as model
-import train as train
-import utils as myutils
+from demo1 import model as model, utils as myutils, train as train
 
 # 使用命令行测试代码。需要以下
 # 创建一个ArgumentParser 对象。包含将命令行解析成python数据类型所需的全部信息
